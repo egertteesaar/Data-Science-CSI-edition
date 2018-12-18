@@ -1,0 +1,12 @@
+Code predicts the category for crime damage cost.
+
+Required modules to run:
+
+-pandas
+-sklearn.preprocessing.MultiLabelBinarizer
+-sklearn.ensemble.RandomForestClassifier
+-sklearn.model_selection.GridSearchCV
+-sklearn.metrics: roc_auc_score, accuracy_score, recall_score, precision_score
+-matplotlib.pyplot
+-numpy
+
